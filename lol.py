@@ -1,4 +1,5 @@
 import discord
+from discord.ext import commands
 
 class gelu(discord.Client):
     async def on_ready(self):
